@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "ParentApiRenamed.myFun1",
+    "name": "myFun2",
+    "fullyQualifiedName": "ChildJsAction1.myFun2",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -13,15 +13,15 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "ParentPage1",
-    "collectionId": "ParentPage1_ParentApiRenamed",
+    "pageId": "ChildPage1",
+    "collectionId": "ChildPage1_ChildJsAction1",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "() => {\n\t\t//write code here\n\t}",
+      "body": "async () => {\n\t\t//use async-await or promises\n\t}",
       "jsArguments": [],
-      "isAsync": false
+      "isAsync": true
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
@@ -33,14 +33,14 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "() => {\n\t\t//write code here\n\t}"
+      "async () => {\n\t\t//use async-await or promises\n\t}"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "ParentPage1_myFun1",
+  "id": "ChildPage1_myFun2",
   "deleted": false,
-  "gitSyncId": "622a5b43dbc4e634e6d02f15_622a5b6ddbc4e634e6d02f1e"
+  "gitSyncId": "622a5b79dbc4e634e6d02f23_622a5ba3dbc4e634e6d02f31"
 }

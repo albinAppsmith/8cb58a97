@@ -2,10 +2,14 @@
   "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
   "serverSchemaVersion": 2,
-  "publishedDefaultPageName": "Page1",
-  "unpublishedDefaultPageName": "Page1",
+  "publishedDefaultPageName": "ParentPageRenamed",
+  "unpublishedDefaultPageName": "ParentPageRenamed",
   "invisibleActionFields": {
     "ParentPage1_ParentApi1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ChildPage1_ChildApi1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -13,7 +17,15 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
+    "ChildPage1_myFun1": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
     "ParentPage1_myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "ChildPage1_myFun2": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
